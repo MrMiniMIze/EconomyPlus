@@ -1,0 +1,31 @@
+# Whether Faction Points are enabled at all
+enable-faction-points: true
+
+# Whether to enforce a maximum balance (false means no limit)
+maximum-balance-enabled: false
+
+# If the above is true, this is the max money allowed
+maximum-balance: 999999999.99
+
+# Number of decimal places to store for money
+decimal-places: 2
+
+# Whether transactions are logged to console
+log-to-console: true
+
+# Default entries to display per page in transaction history
+default-history-page-size: 200
+
+# Whether to hook into Vault
+enable-vault-hook: false
+
+messages:
+  prefix: "&6[EconomyPlus]&r "
+  no-permission: "&cYou don't have permission to do that."
+  balance-check: "&eYour current balance: &a$%balance%"
+  faction-points-check: "&eYour faction has: &a%points% &epoints."
+  pay-success: "&aYou have paid %player% $%amount%!"
+  pay-received: "&aYou have received $%amount% from %player%!"
+  not-enough-money: "&cYou do not have enough money to pay that amount."
+  set-money: "&aYou have set %target%'s money to $%amount%!"
+  set-points: "&aYou have set %target%'s faction points to %amount%!"

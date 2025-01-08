@@ -1,0 +1,19 @@
+name: EconomyPlus
+main: me.minimize.economyplus.EconomyPlus
+version: 1.0.0
+author: minimize
+
+commands:
+  balance:
+    aliases: [bal]
+    description: Check your current balance.
+  pay:
+    description: Pay another player.
+  baltop:
+    description: View the richest players.
+  fpoints:
+    description: Check your faction's points (if enabled).
+  ftop:
+    description: View top factions by points (if enabled).
+  econplus:
+    description: Admin commands for EconomyPlus (set/give/take/history).
